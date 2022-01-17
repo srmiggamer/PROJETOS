@@ -67,10 +67,13 @@ function draw() {
   }
   
   if (arrowGroup.isTouching(redB)) {
-    
-    //redB.destroyEach();
+    //certo
+    redB.destroyEach();
+    //errado
     //redB.destroy();
+    //errado
     //redB.Each();
+    //errado
     //ballon.destroyEach();
     
     arrowGroup.destroyEach();
@@ -146,9 +149,13 @@ function pinkBalloon() {
   arrow.lifetime = 100;
   arrow.scale = 0.3;
   
+  //errado
   //arrowGroup.addGroup(arrow);
+  //errado
   //arrow.add(arrowGroup);
+  //errado
   //arrowGroup.add();
-  //arrowGroup.add(arrow);
+  //certo
+  arrowGroup.add(arrow);
    
 }
