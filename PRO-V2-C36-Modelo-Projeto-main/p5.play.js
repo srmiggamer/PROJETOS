@@ -3215,7 +3215,7 @@ function Sprite(pInst, _x, _y, _w, _h) {
     this.touching.bottom = false;
 
     if (this.removed) {
-      return false;
+     // return false;
     }
 
     var others = [];

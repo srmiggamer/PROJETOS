@@ -27,7 +27,7 @@ class Question {
 
     // this.question("Pergunta:- O que é que está no meio do começo, no começo do meio, e no final do fim? " );
     // this.html("Pergunta:- O que é que está no meio do começo, no começo do meio, e no final do fim? " );
-    //this.question.html("Pergunta:- O que é que está no meio do começo, no começo do meio, e no final do fim? " );
+    this.question.html("Pergunta:- O que é que está no meio do começo, no começo do meio, e no final do fim? " );
     // question.html("Pergunta:- O que é que está no meio do começo, no começo do meio, e no final do fim? " );
 
     this.question.position(150, 80);
@@ -46,8 +46,8 @@ class Question {
 
     this.button.mousePressed(()=>{
       
-      // this.message.html("Obrigado, Sua Resposta Foi Enviada");
-      // this.message.position(350, 350);
+       this.message.html("Obrigado, Sua Resposta Foi Enviada");
+       this.message.position(350, 350);
 
       // this.message.html("Obrigado, Sua Resposta Foi Enviada");
       // this.message.position();
